@@ -15,11 +15,11 @@
   top: 0;
   left: 0;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .Container{
-    width: 97.85vw;
+    width: 100vw;
   }
-  }
+  } */
   
   /* Add some content at the bottom of the video/page */
   .Content {
