@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import logo from '../img-ved/abc.png'
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top content'>
@@ -17,7 +18,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            DN
+            {/* <span><img src={logo} alt='logo'/></span> */}
+            DN Organizers  
           </a>{' '}
         </div>
 

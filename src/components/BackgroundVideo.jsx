@@ -13,12 +13,9 @@ const BackgroundVideo = () => {
 
             <div className="Content">
                 <div className="SubContent" >
-                    <h1>Reactjs Course</h1>
-                    <p>Learn how to develope React projects</p>
-                    <button type="button" className="btn btn-outline-dark">View the course</button>
-                    <img
-                        src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-                        alt="profile" />
+                    <h1>WE DESIGN YOUR DREAMS</h1>
+                    <p style={{fontSize: "20px"}}>A premier wedding planner and event coordination company in Pakistan and abroad, Shan event management is your one stop shop for wedding and corporate events.</p>
+                    <button type="button" className="btn btn-outline-dark">Get Started</button>
                 </div>
             </div>
         </div>

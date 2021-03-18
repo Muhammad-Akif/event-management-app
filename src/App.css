@@ -1,42 +1,23 @@
-/* #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.content {
-    padding: 0px im !important;
-    margin: 0px !important;
-} */
-
 .Container {
     position: relative;
-    width: 100%;
-    height: 670px;
+    height: 9vh;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     margin-bottom: 0px;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-/* .Video {
-  position: relative;
-  min-width: 100%;
-  min-height: 50px;
-  overflow: hidden;
-} */
 .Video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
 }
 @media (max-width: 768px) {
   .Container{
-    height: 768px;
+    width: 97.85vw;
   }
   }
   
@@ -44,8 +25,8 @@
   .Content {
     position: absolute;
     top: 0;
+    background-color: rgba(43, 26, 26, 0.4);
     color:#f1f1f1;
-    background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: 100%;
     display: flex;
@@ -54,22 +35,28 @@
     padding: 0;
   }
   .SubContent {
-      text-align: center;
-      padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
     }
   .SubContent p {
+      width: 95vw;
       color: #eeeeeead;
-      font-size: 1.3rem;
   }
   .SubContent button {
       font-weight: bold;
       margin-top: 30px;
       color: #f1f1f1;
       border: #f1f1f1 1px solid;
-      padding: 10px 5px;
+      padding: 20px 25px;
       background-color: hsla(0, 0%, 0%, 0);
       font-size: 1.25rem;
-      border-radius: 5px;
+      width: 150px;
+      border-radius: 3px;
   }
   .SubContent button:hover {
       background-color: #f1f1f1;
@@ -79,8 +66,6 @@
   .SubContent img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     display: block;
-    margin: 15px auto;
-    border: #f1f1f1 1px solid;
+    margin: 20px 0px 20px 10px;
   }
