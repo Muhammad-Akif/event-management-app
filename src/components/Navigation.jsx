@@ -1,5 +1,3 @@
-import { NavLink } from 'react-router-dom';
-import logo from '../img-ved/abc.png'
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top content'>
