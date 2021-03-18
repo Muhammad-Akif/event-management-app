@@ -66,6 +66,7 @@ hr {
 }
 /* Navigation */
 #menu {
+	background-color: #333;
 	padding: 12px;
 	transition: all 0.8s;
 	opacity: 0.8;
@@ -81,7 +82,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: rgb(114, 201, 15);
+	color: rgb(154, 241, 55);
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -245,6 +246,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
+	background-color: rgb(223, 226, 226);
 }
 #about h3 {
 	font-size: 22px;

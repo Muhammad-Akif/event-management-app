@@ -1,7 +1,7 @@
 .Container {
     position: relative;
     height: 9vh;
-    width: 100vw;
+    width: 98.85vw;
     height: 100vh;
     overflow: hidden;
     margin-bottom: 0px;
@@ -15,11 +15,11 @@
   top: 0;
   left: 0;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .Container{
-    width: 100vw;
+    width: 98.85vw;
   }
-  } */
+  }
   
   /* Add some content at the bottom of the video/page */
   .Content {
@@ -44,7 +44,7 @@
     padding: 10px;
     }
   .SubContent p {
-      width: 95vw;
+      width: 90vw;
       color: #eeeeeead;
   }
   .SubContent button {
